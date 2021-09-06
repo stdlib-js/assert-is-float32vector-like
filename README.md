@@ -91,6 +91,24 @@ out = isFloat32VectorLike( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-float64vector-like`][@stdlib/assert/is-float64vector-like]: test if a value is a 1-dimensional ndarray-like object containing double-precision floating-point numbers.
+-   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: test if a value is ndarray-like.
+-   [`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]: test if a value is a 1-dimensional ndarray-like object.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -147,6 +165,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-float32vector-like/main/LICENSE
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-float64vector-like]: https://github.com/stdlib-js/assert-is-float64vector-like
+
+[@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert-is-ndarray-like
+
+[@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert-is-vector-like
+
+<!-- </related-links> -->
 
 </section>
 
