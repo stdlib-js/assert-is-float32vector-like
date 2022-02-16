@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-float32vector-like",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Test if a value is a 1-dimensional ndarray-like object containing single-precision floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
