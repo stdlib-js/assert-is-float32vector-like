@@ -24,30 +24,14 @@ limitations under the License.
 
 > Test if a value is a 1-dimensional [ndarray][@stdlib/ndarray/ctor]-like object containing single-precision floating-point numbers.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-is-float32vector-like
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var isFloat32VectorLike = require( '@stdlib/assert-is-float32vector-like' );
+import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@esm/index.mjs';
 ```
 
 #### isFloat32VectorLike( value )
@@ -55,8 +39,8 @@ var isFloat32VectorLike = require( '@stdlib/assert-is-float32vector-like' );
 Tests if a value is a 1-dimensional [ndarray][@stdlib/ndarray/ctor]-like object whose underlying data type is `float32`.
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
-var ndarray = require( '@stdlib/ndarray-ctor' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
+import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 
 var arr = ndarray( 'float32', new Float32Array( [ 0, 0, 0, 0 ] ), [ 4 ], [ 1 ], 0, 'row-major' );
 
@@ -74,10 +58,15 @@ var bool = isFloat32VectorLike( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var ndarray = require( '@stdlib/ndarray-ctor' );
-var Float32Array = require( '@stdlib/array-float32' );
-var isFloat32VectorLike = require( '@stdlib/assert-is-float32vector-like' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
+import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@esm/index.mjs';
 
 var buffer = new Float32Array( [ 0, 0, 0, 0 ] );
 var arr = ndarray( 'float32', buffer, [ 4 ], [ 1 ], 0, 'row-major' );
@@ -93,6 +82,10 @@ out = isFloat32VectorLike( {} );
 
 out = isFloat32VectorLike( null );
 // returns false
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -124,7 +117,7 @@ out = isFloat32VectorLike( null );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -184,15 +177,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-float32vector-like/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-float64vector-like]: https://github.com/stdlib-js/assert-is-float64vector-like
+[@stdlib/assert/is-float64vector-like]: https://github.com/stdlib-js/assert-is-float64vector-like/tree/esm
 
-[@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert-is-ndarray-like
+[@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert-is-ndarray-like/tree/esm
 
-[@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert-is-vector-like
+[@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert-is-vector-like/tree/esm
 
 <!-- </related-links> -->
 
