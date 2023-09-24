@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@esm/index.mjs';
+import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@v0.1.0-esm/index.mjs';
 ```
 
 #### isFloat32VectorLike( value )
@@ -77,7 +77,7 @@ var bool = isFloat32VectorLike( arr );
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@esm/index.mjs';
+import isFloat32VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@v0.1.0-esm/index.mjs';
 
 var buffer = new Float32Array( [ 0, 0, 0, 0 ] );
 var arr = ndarray( 'float32', buffer, [ 4 ], [ 1 ], 0, 'row-major' );
