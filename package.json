@@ -37,7 +37,6 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-float32array": "^0.1.1",
     "@stdlib/assert-is-vector-like": "^0.1.0"
   },
   "devDependencies": {
