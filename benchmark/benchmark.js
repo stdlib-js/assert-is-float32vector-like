@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isBoolean = require( '@stdlib/assert-is-boolean' ).isPrimitive;
 var ndarray = require( '@stdlib/ndarray-ctor' );
 var Float32Array = require( '@stdlib/array-float32' );
