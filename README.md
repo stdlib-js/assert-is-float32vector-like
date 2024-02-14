@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isFloat32VectorLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@umd/browser.js' )
+isFloat32VectorLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isFloat32VectorLike = require( 'path/to/vendor/umd/assert-is-float32vector-l
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -99,7 +99,7 @@ var bool = isFloat32VectorLike( arr );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32vector-like@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
