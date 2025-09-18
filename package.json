@@ -37,7 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-vector-like": "^0.2.2"
+    "@stdlib/assert-is-vector-like": "^0.2.2",
+    "@stdlib/ndarray-base-dtype": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.2",
