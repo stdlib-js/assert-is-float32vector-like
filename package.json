@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-float32vector-like",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test if a value is a 1-dimensional ndarray-like object containing single-precision floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-vector-like": "^0.2.2",
-    "@stdlib/ndarray-base-dtype": "^0.2.2"
+    "@stdlib/assert-is-vector-like": "^0.2.3",
+    "@stdlib/ndarray-base-dtype": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-float32": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/ndarray-ctor": "^0.2.2",
-    "@stdlib/utils-noop": "^0.2.2",
+    "@stdlib/array-float32": "^0.2.3",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/ndarray-ctor": "^0.3.1",
+    "@stdlib/utils-noop": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
